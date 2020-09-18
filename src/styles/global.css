@@ -85,12 +85,20 @@ body {
   display: flex;
   align-items: center;
   padding-left: 200px;
+  padding-right: 200px;
 }
 
 .cardTextContainer {
   background-color: white;
   z-index: 10;
   padding: 60px;
+}
+
+.rightCardTextContainer {
+  background-color: white;
+  z-index: 10;
+  padding: 60px;
+  margin-left: auto;
 }
 
 .cardImage {

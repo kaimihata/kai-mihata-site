@@ -55,11 +55,13 @@ export default function Home() {
             <h1 className="cardContentTitleText">Projects</h1>
           </div>
           <Card
-            title="Title"
-            source="https://assets-global.website-files.com/5bfd6f4468ee7943c2d331dd/5c041c8e44cfacb5d42ed502_Black.jpg"
-            subtitle="React Native, AWS"
-            content="Content"
+            title="Portals.net"
+            source="https://raw.githubusercontent.com/kaimihata/kai-mihata-site/master/src/assets/portals_mockup.png"
+            subtitle="React Native, Redux, GraphQL, AWS"
+            content="Hosted items and promotional content for virtual experiences"
             link="https://github.com/kaimihata/repeat-receipt"
+            buttonName="App Store"
+            orientation="left"
           />
           <Card
             title="Title"
@@ -67,6 +69,8 @@ export default function Home() {
             subtitle="React Native, AWS"
             content="Content"
             link="https://github.com/kaimihata/repeat-receipt"
+            buttonName="Link"
+            orientation="right"
           />
         </div>
       </div>
